@@ -1,11 +1,11 @@
 import React from 'react';
 
-class UserForm extends React.Component {
+class PostFrom extends React.Component {
     render() {
         return (
             <form onSubmit={this.props.handleSubmit}>
                 <h2>Create a post</h2>
-                <div class = "first">
+                <div>
                      <label for="title">Title</label>
                     <input type="text" placeholder="Enter title..." value=""required />
                 </div>

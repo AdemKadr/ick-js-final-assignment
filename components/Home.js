@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import UserList from './UserList';
-import UserForm from './UserForm';
+import PostForm from './PostForm';
 
 class Home extends React.Component {
     constructor() {
